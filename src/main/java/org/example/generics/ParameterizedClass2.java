@@ -1,4 +1,4 @@
-package org.example;
+package org.example.generics;
 
 public class ParameterizedClass2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.comparable_comparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -20,7 +20,7 @@ public class Comparator {
     }
 }
 
-class Employee2 implements java.lang.Comparable<org.example.Employee2> {
+class Employee2 implements java.lang.Comparable<Employee2> {
     int id;
     String name;
     String surname;
@@ -44,7 +44,7 @@ class Employee2 implements java.lang.Comparable<org.example.Employee2> {
     }
 
         @Override
-        public int compareTo(org.example.Employee2 anotherEmp) {
+        public int compareTo(Employee2 anotherEmp) {
         return this.id-anotherEmp.id;
 //            int res = this.name.compareTo(anotherEmp.name);
 //            if(res==0){
