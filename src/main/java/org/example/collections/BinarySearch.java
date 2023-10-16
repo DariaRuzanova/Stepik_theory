@@ -14,7 +14,7 @@ public class BinarySearch {
         int ind1 = Collections.binarySearch(arrayList,12); // поиск элемента делением пополам
         System.out.println(ind1);
 
-        Collections.reverse(arrayList);
+        Collections.reverse(arrayList);//разворот коллекции
         System.out.println(arrayList);
 
         Collections.shuffle(arrayList); //метод перемешивает элементы arrayList

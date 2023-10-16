@@ -1,7 +1,8 @@
 package org.example.collections;
 
+import org.example.collections.map.Student2;
+
 import java.util.LinkedHashMap;
-import java.util.TreeMap;
 
 public class LinkedHashMapExample {
     public static void main(String[] args) {

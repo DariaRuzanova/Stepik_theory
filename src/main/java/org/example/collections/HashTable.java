@@ -1,10 +1,12 @@
 package org.example.collections;
 
+import org.example.collections.map.Student2;
+
 import java.util.Hashtable;
 
 public class HashTable { // не стоит использовать Если нужна поддержка многопоточности, то лучше использовать ConcurrentHashMap
     public static void main(String[] args) {
-        Hashtable<Double,Student2> ht = new Hashtable<>();
+        Hashtable<Double, Student2> ht = new Hashtable<>();
         Student2 st1 = new Student2("Zaur", "Tregulov", 4);
         Student2 st2 = new Student2("Mariya", "Ivanova", 1);
         Student2 st3 = new Student2("Ivan", "Petrov", 2);
