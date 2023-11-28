@@ -21,6 +21,7 @@ public class TreeSetEx1 {
         System.out.println(studentSet);
         Student st5 = new Student("Masha",5);
 
+
         System.out.println(st1.equals(st5));
     }
 
